@@ -1,0 +1,45 @@
+src/lib/auth.ts
+  2170f4ae680d7805 2-7,10,25-74,77,79,82,86,88-90,97,101,103,105,113-118,142-144,153,162-165,167,170,172-174,177-178,182-183,186,188,192,195,197-199
+src/types/index.ts
+  2170f4ae680d7805 15-20
+src/lib/ops.ts
+  2170f4ae680d7805 489,532,932
+src/lib/config.ts
+  2170f4ae680d7805 56
+README.md
+  2170f4ae680d7805 5,19,23-37,39,41,43,199
+---
+{
+  "schema_version": "zax-attestation/1.1.0",
+  "base_commit_sha": "37747a93f0829e185ec9c7c8b8925292faaff924",
+  "prompts": {
+    "2170f4ae680d7805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b6b1ece-a312-47b2-ba29-731008eb582d",
+        "model": "<synthetic>"
+      },
+      "skills": [
+        {
+          "id": "login",
+          "ts": "2026-06-22T01:51:19.045Z"
+        },
+        {
+          "id": "zax:commit",
+          "ts": "2026-06-22T02:18:53.145Z"
+        }
+      ],
+      "tool_counts": {
+        "Bash": 60,
+        "Read": 11,
+        "Write": 3,
+        "AskUserQuestion": 3,
+        "Edit": 10,
+        "Skill": 1
+      },
+      "total_additions": 152,
+      "total_deletions": 0,
+      "overriden_lines": 0
+    }
+  }
+}

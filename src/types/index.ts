@@ -14,6 +14,8 @@ export interface UserProfile {
   kostlText: string;     // "Device Engineering"
   wfDept: string;        // Department code
   wfDeptText: string;    // "Service Engineering"
+  gsber?: string;        // Business area, e.g. "K300" (호갱노노) / "K200" (스마트홈)
+  bupla?: string;        // Business place, e.g. "K100"
 }
 
 export interface ReimbursementItem {

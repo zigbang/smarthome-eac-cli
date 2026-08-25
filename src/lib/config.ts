@@ -55,6 +55,8 @@ export const DEFAULT_CONFIG: EacConfig = {
     kostlText: "Device Engineering",
     wfDept: "0000252100",
     wfDeptText: "Service Engineering",
+    gsber: "K200",
+    bupla: "K100",
   },
   items: {
     "자기관리비": {
